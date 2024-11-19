@@ -1,13 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Welcome - Choose Your Resume Version</title>
+    <link rel="stylesheet" href="./src/assets/css/style.css">
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="app">
+      <header>
+        <h1>Welcome to My Portfolio</h1>
+      </header>
+      
+      <main>
+        <section class="resume-selector">
+          <h2>Select Resume Version</h2>
+          <div class="resume-options">
+            <a href="./src/resume/software-engineer/index.html" class="resume-option">
+              <h3>Software Engineer</h3>
+              <p>Focus on technical skills and software development experience</p>
+            </a>
+            <a href="./src/resume/tech-lead/index.html" class="resume-option">
+              <h3>Tech Lead</h3>
+              <p>Emphasis on leadership and team management experience</p>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div id="social-links"></div>
+      </footer>
+    </div>
+    <script type="module" src="./src/assets/js/main.js"></script>
   </body>
 </html>
